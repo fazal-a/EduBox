@@ -12,10 +12,21 @@
     object-fit: cover;
 }
 
+.loginButton {
+    color: #1c1d1f;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+}
+.signupButton {
+    color: #1c1d1f;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+}
+
 @media (min-width: 767px) {
 
     .border-top { 
-        border-top: 0px solid #ced4da!important;
+        /*border-top: 0px solid #ced4da!important;*/
     }
 
   
@@ -24,7 +35,7 @@
 @media (max-width: 767px) {
 
     .border-top { 
-        border-top: 1px solid #ced4da!important;
+        /*border-top: 1px solid #ced4da!important;*/
     }
 
     .padding-top {
