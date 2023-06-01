@@ -48,7 +48,7 @@ class Navigation extends Component {
                                 width="30"
                                 height="30"
                                 className="d-inline-block align-top mx-2"
-                            /> EduBox</Navbar.Brand>
+                            />EduBox</Navbar.Brand>
                     </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -76,10 +76,10 @@ class Navigation extends Component {
                                     </>
                                     :
                                     <>
-                                        <Nav.Link as="div" onClick={() => this.handleModal(true)} className="border-top">Log in</Nav.Link>
+                                        <Nav.Link as="div" onClick={() => this.handleModal(true)} className="border-top loginButton">Log in</Nav.Link>
 
                                         <Link to="/signup">
-                                            <Nav.Link as="div" className="border-top">Sign up</Nav.Link>
+                                            <Nav.Link as="div" className="border-top signupButton">Sign up</Nav.Link>
                                         </Link>
                                     </>
                             }

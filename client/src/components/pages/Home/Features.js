@@ -8,7 +8,7 @@ const Features = () => {
         <Row className="d-flex align-items-center" >
           <Col lg={6} md={12} style={{ textAlign: 'left' }}>
             <h2 className="mb-3">Don't waste your valuable time</h2>
-            <p>Only Freedemy has all the critical factors to deliver real results.</p>
+            <p>Only EduBox has all the critical factors to deliver real results.</p>
             <p>Our curated collection of top-rated business and technical courses gives companies, governments,
             and nonprofits the power to develop in-house expertise and satisfy employees’ hunger for learning
             and development.</p>
